@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>designer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Sunflower:300" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="/js/go_top.js"></script>
+    <script type="text/javascript">
+          $(document).ready(function(){
+        $('body').append('<a href="#" id="go-top" title="Вверх"><i class="fas fa-angle-up"></i></a>');
+        });
+
+          $(function() {
+            $.fn.scrollToTop = function() {
+              $(this).hide().removeAttr("href");
+                if ($(window).scrollTop() >= "250") $(this).fadeIn("slow")
+                  var scrollDiv = $(this);
+                    $(window).scroll(function() {
+                     if ($(window).scrollTop() <= "250") $(scrollDiv).fadeOut("slow")
+                   else $(scrollDiv).fadeIn("slow")
+                });
+                $(this).click(function() {
+               $("html, body").animate({scrollTop: 0}, "slow")
+            })
+          }
+          });
+
+        $(function() {
+        $("#go-top").scrollToTop();
+      });
+    </script>
+    <style>
+      .progress_javascript button{
+  width: 205px;
+}
+
+    </style>
+  </head>
+  <body>
+    <header>
+
+      <div class="header_one">
+
+        <div class="header_two_text_header">
+          <a href="#glavnaya">Главная</a>
+          <a href="#top"><span>Навыки</span></a>
+          <a href="#rezum"><span>Резюме</span></a>
+          <a href="#contact"><span>Контакты</span></a>
+        </div>
+
+          <div class="header_text_famulu">
+            <p id="#glavnaya"><small>A</small>KEZHANOV <br>
+            SANZHA<small>R</small></p>
+
+            <p class="information"  id="rezum">Веб-Дизайнер и Веб-Разработчик</p>
+          </div>
+          <div class="block">
+            <div class="black">
+              <i class="fab fa-autoprefixer"></i>
+              <p>Молодой амбициозный веб разработчик/дизайнер, Хотите узнать больше обо мне? нажимайте на кнопку ниже и скачивайте мое резюме</p>
+            </div>
+          </div>
+      </div>
+
+    </header>
+
+    <div class="proffesional">
+      <div class="block_">
+        <div class="black_">
+          <p> ниже и скачивайте мое резюме <span id="spanspan">(Если что он не работает :) )</span> </p>
+          <a id="top" class="ghost-button" href="#">Скачать</a>
+        </div>
+      </div>
+      <div class="text_proffrsional_one">
+        <h1>01 Навыки</h1>
+        <h5>УРОВЕНЬ ВЛАДЕНИЯ ПРОГРАММАМИ</h5>
+      </div>
+
+      <div class="progress_bar">
+          <div class="progress_html">
+            <div class="button">
+            <p>HTML</p><button type="button" name="button">92%</button>
+            </div>
+          </div>
+
+          <div class="progress_css">
+            <div class="button">
+            <p>CSS</p><button type="button" name="button">67%</button>
+            </div>
+          </div>
+
+          <div class="progress_javascript">
+            <div class="button">
+                <p>JAVASCRIPT</p><button type="button" name="button">7%</button>
+            </div>
+          </div>
+
+          <div class="progress_photoshop">
+            <div class="button">
+                <p>PHOTOSHOP</p><button type="button" name="button">89%</button>
+            </div>
+          </div>
+
+          <div class="progress_bootstrap">
+            <div class="button">
+                <p>BOOTSTRAP</p><button type="button" name="button">77%</button>
+            </div>
+
+            
+
+          </div>
+          <div class="iiii">
+            <i class="fas fa-angle-double-down"></i>
+          </div>
+
+      </div>
+
+    </div>
+
+    <div class="top_contact">
+      <h1>02 Контакты</h1>
+      <div class="top_contact_next">
+
+
+          <li><a href="https://t.me/sanzharakezhanov"><i class="fab fa-telegram-plane"></i></a></li>
+          <li><a href="mailto:akezhanovsanzhar@gmail.com"><i class="fab fa-google"></i></a></li>
+          <li><a href="https://vk.com/akezhanovvv"><i class="fab fa-vk"></i></a></li>
+          <li><a href="mailto:a_s_04@mail.ru"><i class="fas fa-envelope"></i></a></li>
+          <li><a href="mailto:blatnoiakezhanov@yandex.ru"><i class="fab fa-yandex-international"></i></a></li>
+          <li id="contact"></li>
+
+      </div>
+
+    </div>
+
+
+  </body>
+</html>
