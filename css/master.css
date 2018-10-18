@@ -1,0 +1,266 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+a:hover {
+  text-decoration:none !important;
+}
+
+.header_two_text_header a:hover{
+    color: #5DADE2;
+}
+
+.header_two_text_header span{
+  color: #D0D3D4;
+}
+
+.header_one{
+  background-image: url(../images/background_header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header_two_text_header{
+  padding-top: 26px;
+  padding-left: 158px;
+  font-size: 26px;
+  font-family: 'Sunflower', sans-serif;
+}
+
+.header_two_text_header a{
+  color: #F4F6F7;
+  margin: 27px;
+
+}
+
+.header_text_famulu{
+  padding-left: 158px;
+  padding-top: 150px;
+  font-size: 46px;
+  color: #F4F6F7;
+}
+
+small{
+  color: #76D7C4;
+  font-size: 46px;
+}
+
+.information{
+  font-size:  28px;
+  text-align: right;
+  padding-right: 48px;
+  color: #F4F6F7;
+  padding-bottom: 78px;
+}
+
+.proffesional{
+  background-image: url(../images/break-coffee-computer-6064.jpg);
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.progress{
+  padding-left: 47px;
+  color: #ECF0F1;
+  font-size: 20px;
+}
+
+.text_proffrsional_one{
+    color: #ECF0F1;
+    text-align: center;
+    padding-top: 37px;
+    padding-bottom: 28px;
+}
+
+.iiii{
+  color: #ECF0F1;
+  font-size: 46px;
+  padding-top: 37px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.block{
+  text-align: center;
+}
+
+.block p{
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #ECF0F1;
+    font-size: 26px;
+    padding-bottom: 70px;
+
+}
+
+.block_{
+  text-align: center;
+}
+
+.block_ p{
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #ECF0F1;
+  font-size: 26px;
+  padding-bottom: 70px;
+}
+
+.black_{
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em;
+  width: 525px;
+  height: 265px;
+  outline: 1px;
+  position: relative;}
+.black_{background:#3498DB;outline-offset:1px;}
+
+
+.ghost-button {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  font-size: 26px;
+  border: 1px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #ECF0F1;
+  color: #3498DB;;
+}
+
+.black{
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em;
+  width: 525px;
+  height: 205px;
+  outline: 1px;
+  position: relative;}
+.black{background:#3498DB;outline-offset:1px;}
+
+.block p{
+  padding-bottom: 50px;
+}
+
+.progress{
+  display: inline-block;
+}
+
+.progress_html button{
+  width: 552px;
+  height: auto;
+}
+
+.progress_css button{
+  width: 402px;
+}
+
+
+.progress_javascript button{
+  width: 205px;
+}
+
+.progress_photoshop button{
+  width: 534px;
+}
+
+.progress_bootstrap button{
+  width: 462px;
+}
+
+.progress_bar p{
+  display: inline-block;
+  padding-right: 15px;
+  font-size: 26px;
+  color: #ECF0F1;
+  text-align: left;
+}
+
+.progress_bar{
+  text-align: left;
+  padding-left: 50px;
+  padding-bottom: 26px;
+}
+
+button{
+  border-radius: 10px;
+  background-color: #3498DB;
+  color: #ECF0F1;
+  border: 0;
+  padding: 0;
+}
+
+#go-top {
+  position: fixed;
+  bottom: 25px;
+  right: 10px;
+  cursor:pointer;
+  display:none;
+  width: 60px;
+  height: auto;
+  text-align: center;
+  background: #c0c0c0;
+  border-radius: 10px;
+}
+
+#go-top:hover {
+  background: #333;
+}
+
+.black i{
+  color: #ECF0F1;
+  font-size: 46px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.top_contact{
+  background-image: url(../images/pexels-photo-669996.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.top_contact h1{
+  color: #ECF0F1;
+  padding-top: 58px;
+  padding-bottom: 69px;
+}
+
+li{
+  list-style-type: none;
+  display: inline;
+}
+
+ul{
+    text-decoration: none;
+    color: #ECF0F1;
+    padding-bottom: 140px;
+    text-align: center;
+    font-size: 34px;
+}
+
+.top_contact_next i{
+  color: #ECF0F1;
+  padding-bottom: 140px;
+  text-align: center;
+  font-size: 34px;
+  margin: 28px;
+}
+
+li, a:hover{
+  color: #3498DB;
+}
+
+#spanspan{
+  color: #5DADE2;
+}
